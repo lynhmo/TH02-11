@@ -87,11 +87,11 @@ export default function Onboarding({ navigation }) {
       }}
       activeDotStyle={{
         backgroundColor: "#666",
-        width: 40,
+        width: 30,
       }}
       showSkipButton
       onDone={() => {
-        navigation.navigate("Login");
+        navigation.navigate("Landingscreen");
       }}
     />
   );
